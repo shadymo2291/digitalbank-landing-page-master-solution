@@ -10,7 +10,7 @@
 
 ### Links
 
-- Solution URL:
+- Solution URL: https://github.com/shadymo2291/digitalbank-landing-page-master-solution
 
 ### Built with
 
@@ -30,64 +30,64 @@ and pseudo-elements and hover effect
 To see how you can add code snippets, see below:
 
 .first_section {
-background-color: #f3f5f7;
-padding: 80px 0;
-margin-top: -100px;
+  background-color: #f3f5f7;
+  padding: 80px 0;
+  margin-top: -100px;
 }
 .first_section .first_section_sevices {
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-gap: 40px;
-margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 40px;
+  margin-top: 60px;
 }
 .first_section_intro {
-width: 550px;
+  width: 550px;
 }
 .first_section_intro h2 {
-font-size: 30px;
-margin-bottom: 30px;
+  font-size: 30px;
+  margin-bottom: 30px;
 }
-.first_section_intro > p {
-font-size: 15px;
-margin-bottom: 30px;
+  .first_section_intro > p {
+  font-size: 15px;
+  margin-bottom: 30px;
 }
 .first_section .first_section_sevices > div {
-display: flex;
-flex-direction: column;
-gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 .first_section .first_section_sevices h3 {
-font-size: 20px;
+  font-size: 20px;
 }
 .first_section .first_section_sevices p {
-font-size: 14px;
-line-height: 1.7;
+  font-size: 14px;
+  line-height: 1.7;
 }
 .first_section .first_section_sevices img {
-display: block;
-width: 60px;
+  display: block;
+  width: 60px;
 }
 
 @media (max-width: 992px) {
-.first_section {
-margin-top: 0px;
-}
-.first_section .first_section_sevices {
-gap: 20px;
-}
-.first_section_intro {
-width: auto;
-}
-.first_section .first_section_sevices > div {
-align-items: center;
-text-align: center;
-}
-.first_section_intro {
-text-align: center;
-}
-.first_section_intro h2 {
-font-size: 35px;
-}
+  .first_section {
+    margin-top: 0px;
+  }
+  .first_section .first_section_sevices {
+    gap: 20px;
+  }
+  .first_section_intro {
+    width: auto;
+  }
+  .first_section .first_section_sevices > div {
+    align-items: center;
+    text-align: center;
+  }
+  .first_section_intro {
+    text-align: center;
+  }
+  .first_section_intro h2 {
+    font-size: 35px;
+  }
 }
 
 ### Continued development
